@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>搜索界面</title>
+          <link rel="icon" href="../icon/konglong.png">
+          <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+          <!-- 采用table表格形式 -->
+          <table><!-- 创建一个表格 -->
+                    <!-- 创建第一行tr -->
+                    <tr class="first-row-without-borders"><!-- 第一行边框--------------------------------------- -->
+                              <!-- 创建第一行的第一个单元格 -->
+                              <td class="td1">
+                                        <input type="checkbox" id="selectAll" class="check">
+                                        <span>全选</span>
+                              </td>
+
+                              <td><span>商品名称：</span></td>
+                              <td><span>商品单价：</span> </td>
+                              <td><span>商品数量：</span></td>
+                              <td><span>商品总计： </span></td>
+                    </tr>
+                    
+                    <tr class="t2 line"><!-- 创建第二行-------------------------------------------------------------------- -->   
+                              <!-- 第二行的第1个单元格 -->
+                              <td class="td1">
+                                        <input type="checkbox" class="check single"><!-- 按钮框1 -->
+                                        <img src="../icon/food3.png">
+                              </td>
+                              <td class="td2-width"><span>香辣美味辣条开袋即食够你爽美味</span></td>
+                              <td class="thirdCell">
+                                        <span class="zero">12.9</span>
+                                        <span>元</span>
+                              </td>
+                              <td class="fourthCellWidth">
+
+                                        <div class="minusSign">
+                                                  <span>-</span>
+                                        </div>
+
+                                        <div class="variation">
+                                                  <span>1</span>
+                                        </div>
+
+                                        <div class="plus">
+                                                  <span>+</span>
+                                        </div>
+                              </td>
+                              <td class="fifthCell">
+                                        <span class="zero">12.9</span>
+                                        <span>元</span>
+                              </td>
+                    </tr>
+
+                    <tr class="tr3 line"><!-- 创建第三行 ---------------------------------------------------------------------->
+                              <td class="td3">
+                                        <input type="checkbox" class="check single"><!-- 按钮框2 -->
+                                        <img src="../icon/food2.png">
+                              </td><!-- 第三行的第1个单元格 -->
+                              <td class="td2-width"> <span>香辣美味辣条开袋即食够你爽美味</span> </td>
+                              <td class="thirdCell">
+                                        <span class="zero">11.9</span>
+                                        <span>元</span>
+                              </td>
+
+                              <td class="fourthCellWidth">
+
+                                        <div class="minusSign">
+                                                  <span>-</span>
+                                        </div>
+
+                                        <div class="variation">
+                                                  <span>1</span>
+                                        </div>
+
+                                        <div class="plus">
+                                                  <span>+</span>
+                                        </div>
+                              </td>
+                              <td class="fifthCell">
+                                        <span class="zero">11.9</span>
+                                        <span>元</span>
+                              </td>
+                    </tr><!-- tr -->
+
+                    <!-- 创建第四行 -->
+                    <tr class="tr4 line"><!-- ------------------------------------第四行tr--------------------------------------- -->
+
+                              <td class="td4">
+                                        <input type="checkbox" class="check single"><!-- 按钮框3 -->
+                                        <img src="../icon/food3.png">
+                              </td>
+                              <td class="td2-width"><span>香辣美味辣条开袋即食够你爽美味</span>
+                              <td class="thirdCell">
+                                        <span class="zero">3</span>
+                                        <span>元</span>
+                              </td>
+                              <td class="fourthCellWidth">
+
+                                        <div class="minusSign">
+                                                  <span>-</span>
+                                        </div>
+
+                                        <div class="variation">
+                                                  <span>1</span>
+                                        </div>
+
+                                        <div class="plus">
+                                                  <span>+</span>
+                                        </div>
+
+                              </td>
+
+                              <td class="fifthCell">
+                                        <span class="zero">3</span>
+                                        <span>元</span>
+                              </td>
+
+                    </tr>
+
+          </table>
+
+          <div class="table-div"><!-- -------------------------------------div ----尾部导航栏------------------------------------- -->
+
+                    <div class="left">
+
+                              <span class="continueShopping"> 继续购物</span>
+                              
+                              <span class="selected">已经选择&nbsp;<span class="zero">0</span> &nbsp;件商品</span>
+
+                    </div>
+
+                    <!-- ------------------------divider分割线------------------------------- -->
+                    <div class="right">
+
+                              <span class="amountTo">
+                                        合计：
+                                        <span class="zeroAmountTo">
+                                                  0
+                                        </span>
+                                        &nbsp;元
+                              </span>
+
+                    </div><!-- right结束end -->
+
+          </div><!-- table-div结束end -->
+
+</body>
+<script src="index.js"></script><!-- 不能此标签内写js代码,否则报错！ -->
+
+</html>
